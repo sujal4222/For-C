@@ -3,7 +3,7 @@ int main()//declared a fxn
 {  //body
      printf("Enter a no.\n");
      int a;
-     scanf("%d",&a);
+     scanf("%d",&a);  // & It is used to access variable addresses (Consider it as a pin address)
      printf("Enter another no.\n");
      int b;
      scanf("%d",&b);
@@ -14,7 +14,7 @@ int main()//declared a fxn
 
 
 /*
-scanf("directory type %",&a);
+scanf("%directory type/format specifier",&a); 
 int
 scanf("%d",&a);
 float
