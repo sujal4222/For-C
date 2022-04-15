@@ -8,7 +8,7 @@ int main()//declared a fxn
      int b;
      scanf("%d",&b);
      int c=a+b;
-     printf("Sum of no. is %d",c);
+     printf("Sum of no. is  %d",c);
     return 0;// closes the fxn
 }
 
