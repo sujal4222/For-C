@@ -14,7 +14,7 @@ int main()
 	printf("%d is largest",a);   
 	else if(b>a && b>c)
 	 	printf("%d is largest",b);  
-	else if(b>a && b>c)
+	else if(c>a && c>b)
 	 	printf("%d is largest",c);  
 	return 0;
 }
