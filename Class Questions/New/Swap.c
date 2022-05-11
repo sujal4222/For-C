@@ -1,14 +1,13 @@
 #include <stdio.h>
-int swap(int x, int y)
+int swap(int* x,int* y)
 {
-  int z,u,v;
-    z=x;
-    x=y;
-    y=z;
-    u=x;
-    v=y;
-    return u,v;
+  int z;
+    z=*x;
+    *x=*y;
+    *y=z;
+    printf("I have %d Choclates and %d cookies",x,y);
 }
+
  main()
 {
     printf("I have 'X' Choclates and 'Y' cookies");
@@ -18,6 +17,6 @@ int swap(int x, int y)
     printf("Enter value for 'y'");
     int b;
     scanf("%d",&b);
-    
-    printf("I have %d Choclates and %d cookies",swap(b,a));
+     printf("I have %d Choclates and %d cookies",a,b);
+    swap(a,b);
 }
